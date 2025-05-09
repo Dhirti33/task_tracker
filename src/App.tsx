@@ -1,15 +1,12 @@
-
-import Layout from './components/Layout'
+import './App.css'
+import FullScreenLayout from './components/Layout.tsx'
 
 function App() { 
 
   return ( 
-      
-    <Layout> 
-    <h1 className="text-3xl font-bold text-blue-600">
-      Content Here
-    </h1>  
-    </Layout>
+    <div className="App flex flex-row overflow-hidden bg-gray-900 text-blue-50">
+      <FullScreenLayout />
+    </div>
   )
 }
 
